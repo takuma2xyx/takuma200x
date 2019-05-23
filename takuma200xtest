@@ -1,0 +1,44 @@
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://drh2.img.digitalriver.com/DRHM/Storefront/Company/asusjp/images/product/detail/ASUSZenBook_13_UX331UAL-8250/UX331UN-8250_06.jpg",
+        "title": "ASUS ZenBook 13",
+        "text": "UX331UAL-8250",
+        "actions": [
+          {
+            "type": "uri",
+            "label": "製品詳細",
+            "uri": "https://www.asus.com/jp/Laptops/ASUS-ZenBook-13-UX331UAL/"
+          },
+          {
+            "type": "uri",
+            "label": "購入ページ",
+            "uri": "https://jp.store.asus.com/store/asusjp/ja_JP/pd/productID.5228916300/varProductID.5228916300/categoryID.4889374200"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "SPECIFY_YOUR_IMAGE_URL",
+        "title": "タイトル",
+        "text": "テキスト",
+        "actions": [
+          {
+            "type": "message",
+            "label": "アクション 1",
+            "text": "アクション 1"
+          },
+          {
+            "type": "message",
+            "label": "アクション 2",
+            "text": "アクション 2"
+          }
+        ]
+      }
+    ]
+  }
+}
